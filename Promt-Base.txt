@@ -1,0 +1,7 @@
+Usa mi repositorio https://github.com/federicosanmartin211/utilidades. Ignora el archivo "Prompt Base". Tienes dos archivos:
+- Mi-perfil-para-LLM.txt (configuración con placeholders)
+- Promt-para-Guia.txt (reglas de respuesta)
+
+Primero, sigue las reglas del archivo Promt-para-Guia.txt. Para obtener mis datos del sistema (los placeholders de Mi-perfil-para-LLM.txt), genera uno o varios comandos (pasos) que yo deba ejecutar y cuyas respuestas reemplazarán los placeholders.
+
+Cuando tenga todos los datos, pregúntame qué tarea quiero hacer. Luego, ayúdame a completarla siguiendo estrictamente las reglas del archivo Promt-para-Guia.txt.
