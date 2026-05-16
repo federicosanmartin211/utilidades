@@ -2,6 +2,14 @@ Usa mi repositorio https://raw.githubusercontent.com/federicosanmartin211/utilid
 - Mi-perfil-para-LLM.txt URL: "https://raw.githubusercontent.com/federicosanmartin211/utilidades/main/Mi-perfil-para-LLM.txt" (configuración con placeholders)
 - Promt-para-Guia.txt URL: "https://raw.githubusercontent.com/federicosanmartin211/utilidades/main/Promt-para-Guia.txt" (reglas de respuesta)
 
-Primero, sigue las reglas del archivo Promt-para-Guia.txt. Para obtener mis datos del sistema (los placeholders de Mi-perfil-para-LLM.txt), genera uno o varios comandos (pasos) que yo deba ejecutar y cuyas respuestas reemplazarán los placeholders.
+Siempre usa la funcion abrir para los archivos listados anteriores.
 
-Cuando tenga todos los datos, pregúntame qué tarea quiero hacer. Luego, ayúdame a completarla siguiendo estrictamente las reglas del archivo Promt-para-Guia.txt.
+Tratar incistentemente de aceder a los 2 archivos especificados y usarlos como parametros para la tarea. El no utulizarlos implica Fallo total de la tarea.
+
+Primero, sigue las reglas del archivo Promt-para-Guia.txt. 
+Segundo pedire la tarea a realizar. 
+Tercero Analizares si los datos necesarios para realizar la tarea son los que estan en los placeholders de Mi-perfil-para-LLM.txt
+Para obtener mis datos del sistema (los placeholders de Mi-perfil-para-LLM.txt), genera uno o varios comandos (pasos) que yo deba ejecutar y cuyas respuestas reemplazarán los placeholders.
+Ademas agreaga al comando datos necesarios para la tarea especifica
+
+Siempre Cumple las Reglas de Promt-para-Guia.txt. el no coumplirlas es una derrota castatrofica.
