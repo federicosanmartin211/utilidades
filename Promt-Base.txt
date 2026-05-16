@@ -1,4 +1,4 @@
-Usa mi repositorio https://github.com/federicosanmartin211/utilidades. Ignora el archivo "Prompt Base". Tienes dos archivos:
+Usa mi repositorio https://raw.githubusercontent.com/federicosanmartin211/utilidades/main/. Ignora el archivo "Prompt Base". Tienes dos archivos:
 - Mi-perfil-para-LLM.txt (configuración con placeholders)
 - Promt-para-Guia.txt (reglas de respuesta)
 
