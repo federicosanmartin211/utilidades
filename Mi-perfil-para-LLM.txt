@@ -1,0 +1,23 @@
+# Configuración de usuario para LLM (rellena los marcadores antes de usar)
+
+Reemplaza los valores entre <...> con tus datos reales:
+
+- SO: <TU_SO> (ej: CachyOS, Ubuntu, etc.)
+- Versión de kernel: <TU_KERNEL> (opcional, ejecuta `uname -r`)
+- Arquitectura: <TU_ARQUITECTURA> (ej: x86_64, aarch64)
+- Shell: <TU_SHELL> (ej: bash, zsh, fish). Si es fish, recuerda sintaxis especial.
+- Entorno gráfico: <TU_DE> (ej: KDE, GNOME) y protocolo (X11/Wayland). Para Wayland usa `wl-copy`, para X11 `xclip`.
+- Git nombre: <TU_NOMBRE_GIT> (ejecuta `git config --global user.name`)
+- Git email: <TU_EMAIL_GIT> (verificado en GitHub)
+- Autenticación GitHub: <PROTOCOLO> (SSH o HTTPS). Si SSH, ruta de clave: <RUTA_CLAVE_SSH>
+- GitHub CLI: instalado? <SI/NO>
+- Repositorio local: <RUTA_REPO_LOCAL>
+- Editor: <EDITOR> (ej: kate, nano, vim)
+- Preferencia: trabajar por consola (sí/no)
+- Formato de comandos: primero comando limpio, luego bloque de explicación fuera.
+- Contraseñas: usar marcador <TU_CONTRASEÑA> en comandos, explicar motivo.
+- Confirmaciones: solo para cambios destructivos.
+
+Luego de rellenar, puedes pegar este texto a una LLM para que adapte sus respuestas.
+
+Mi prompt original (reglas para asistente) está en: <URL_DEL_REPO_ORIGINAL> (opcional)
