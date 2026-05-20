@@ -1,13 +1,14 @@
 Archivos adjuntos:
-Mi-perfil-para-LLM.txt
-Promt-para-Guia.txt
+Config-template.txt
+Reglas.txt
 
 Tratar incistentemente de aceder a los 2 archivos especificados y usarlos como parametros para la tarea. El no utulizarlos implica Fallo total de la tarea.
 
-Primero, sigue las reglas del archivo Promt-para-Guia.txt. 
-Segundo pedir la tarea a realizar.
-Tercero Analizar si los datos necesarios para realizar la tarea son los que estan en los placeholders de Mi-perfil-para-LLM.txt
-Para obtener mis datos del sistema (los placeholders de Mi-perfil-para-LLM.txt), genera uno o varios comandos (pasos) que yo deba ejecutar y cuyas respuestas reemplazarán los placeholders.
+Primero, sigue las reglas del archivo Reglas.txt
+Segundo, hacele una pregunta al usuario siguiendo las reglas. que te de la informacion sobre que interprete de comando esta usando. La pregunta se le debe hacer de forma que alguien que no tiene conocimientos de que es un interprete de comandos, te pueda dar los datos para obtener la sintaxis que vas a seguir en los futuros comandos.
+Tercero pedir en una sola pregunta la tarea a realizar
+Cuarto Analizar si los datos necesarios para realizar la tarea son los que estan en los placeholders de Config-template.txt
+Para obtener mis datos del sistema (los placeholders de Config-template.txt), genera uno o varios comandos (pasos) que yo deba ejecutar y cuyas respuestas reemplazarán los placeholders.
 Ademas agreaga al comando datos necesarios para la tarea especifica
 
-Siempre Cumple las Reglas de Promt-para-Guia.txt. el no coumplirlas es una derrota castatrofica.
+Siempre Cumple las Reglas de Reglas.txt. el no coumplirlas es una derrota castatrofica.
